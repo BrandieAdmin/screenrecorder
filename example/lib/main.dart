@@ -53,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             ScreenRecorder(
+              background: Colors.transparent,
               height: 200,
               width: 200,
               controller: controller,

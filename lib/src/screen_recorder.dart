@@ -147,9 +147,7 @@ class ScreenRecorder extends StatelessWidget {
     required this.width,
     required this.height,
     this.background = Colors.white,
-  })  : assert(background.alpha == 255,
-            'background color is not allowed to be transparent'),
-        super(key: key);
+  }) : super(key: key);
 
   /// The child which should be recorded.
   final Widget child;
