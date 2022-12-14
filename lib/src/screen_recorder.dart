@@ -111,7 +111,7 @@ class ScreenRecorderController {
     for (final frame in _frames) {
       final i = await frame.image.toByteData(format: ui.ImageByteFormat.png);
       if (i != null) {
-        bytes.add(RawFrame(16, i));
+        bytes.add(RawFrame(140, i));
       } else {
         print('Skipped frame while enconding');
       }

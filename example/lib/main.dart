@@ -57,10 +57,12 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 200,
               controller: controller,
               child: Center(
-                child: Text(
-                  '$_counter',
-                  style: Theme.of(context).textTheme.headlineMedium,
-                ),
+                child: Image.network(
+                    "https://media2.giphy.com/media/duzpaTbCUy9Vu/giphy.webp?cid=ecf05e47aogt2si7yvpxqoa8na4slcbwgp1xchgll3h4wdwe&rid=giphy.webp&ct=g"),
+                // child: Text(
+                //   '$_counter',
+                //   style: Theme.of(context).textTheme.headline1,
+                // ),
               ),
             ),
             ElevatedButton(
